@@ -1,0 +1,73 @@
+/* Color Variables */
+:root {
+  --purple: #6a1b9a;
+  --gray: #f5f5f5;
+  --white: #ffffff;
+  --dark-gray: #333333;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: var(--dark-gray);
+}
+
+a {
+  text-decoration: none;
+  color: var(--purple);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Custom Colors */
+.bg-purple {
+  background-color: var(--purple) !important;
+}
+
+.text-purple {
+  color: var(--purple) !important;
+}
+
+.bg-gray {
+  background-color: var(--gray) !important;
+}
+
+/* Button Styles */
+.btn-purple {
+  background-color: var(--purple);
+  color: var(--white);
+  border: none;
+}
+
+.btn-purple:hover {
+  background-color: #4e1373;
+}
+
+/* Other Styles */
+iframe {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#mission {
+  text-align: center; /* Center text horizontally */
+}
+
+#mission h2, #mission p {
+  margin-bottom: 15px;
+}
+
+i {
+  margin-right: 8px;
+}
+
+#categories-section img {
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
